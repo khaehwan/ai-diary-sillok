@@ -1,0 +1,168 @@
+{
+  "id": "timeline-2025-11-28",
+  "title": "서울에서의 작은 쉼표",
+  "date": "2025-11-28",
+  "events": [
+    {
+      "id": "evt-97943f8d",
+      "timestamp": "2025-11-28T08:30:00",
+      "title": "아침 커피",
+      "content": "아침 일찍 커피머신에서 아이스커피를 직접 내려 마셨습니다. 하루를 상쾌하게 시작한 모습입니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [
+          {
+            "url": "/api/v1/files/images/asd34w.jpg",
+            "timestamp": "2025-11-28T08:30:00"
+          }
+        ],
+        "location": [
+          {
+            "lat": 37.5665,
+            "lng": 126.978,
+            "timestamp": "2025-11-28T09:00:00",
+            "place_name": null
+          }
+        ],
+        "appnoti": []
+      }
+    },
+    {
+      "id": "evt-3c26dded",
+      "timestamp": "2025-11-28T09:00:00",
+      "title": "서울 도착",
+      "content": "서울 도심(광화문 인근)에 도착하여 오전 일정을 시작했습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [
+          {
+            "url": "/api/v1/files/images/asd34w.jpg",
+            "timestamp": "2025-11-28T08:30:00"
+          }
+        ],
+        "location": [
+          {
+            "lat": 37.5665,
+            "lng": 126.978,
+            "timestamp": "2025-11-28T09:00:00",
+            "place_name": null
+          }
+        ],
+        "appnoti": []
+      }
+    },
+    {
+      "id": "evt-e2ff48e0",
+      "timestamp": "2025-11-28T12:45:00",
+      "title": "점심 배달",
+      "content": "점심시간에 배달음식을 주문해 받아 점심식사를 했습니다. 친구와 함께 식사를 했을 가능성이 있습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [],
+        "location": [
+          {
+            "lat": 37.57,
+            "lng": 126.985,
+            "timestamp": "2025-11-28T12:30:00",
+            "place_name": null
+          }
+        ],
+        "appnoti": [
+          {
+            "appname": "배달의민족",
+            "text": "주문하신 음식이 배달 완료되었습니다",
+            "timestamp": "2025-11-28T12:45:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-6ae133b4",
+      "timestamp": "2025-11-28T15:00:00",
+      "title": "팀 미팅",
+      "content": "오후 3시에 캘린더 알림에 따라 팀 미팅에 참석했습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [],
+        "location": [],
+        "appnoti": [
+          {
+            "appname": "캘린더",
+            "text": "오후 3시 팀 미팅 알림",
+            "timestamp": "2025-11-28T14:50:00"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-fe41b938",
+      "timestamp": "2025-11-28T17:04:00",
+      "title": "스시 식사",
+      "content": "부산(위치: 35.1694, 129.1301)에서 다양한 스시가 담긴 초밥 정식을 즐겼습니다. 고급스러운 스시가 플레이팅된 사진이 남아 있습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [
+          {
+            "url": "/api/v1/files/images/20251128_170416.heic",
+            "timestamp": "2025-11-28T17:04:16"
+          }
+        ],
+        "location": [
+          {
+            "lat": 35.16935339972222,
+            "lng": 129.1300989,
+            "timestamp": "2025-11-28T17:04:16",
+            "place_name": null
+          }
+        ],
+        "appnoti": []
+      }
+    },
+    {
+      "id": "evt-a4a9bb07",
+      "timestamp": "2025-11-28T18:00:00",
+      "title": "해질녘 감상",
+      "content": "서울로 돌아온 후, 붉게 물든 해넘이 풍경을 감상했습니다. 바다와 갈매기, 배가 어우러진 아름다운 장면을 사진에 담았습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [
+          {
+            "url": "/api/v1/files/images/sae3gwet.jpg",
+            "timestamp": "2025-11-28T18:00:00"
+          }
+        ],
+        "location": [
+          {
+            "lat": 37.558,
+            "lng": 126.977,
+            "timestamp": "2025-11-28T18:00:00",
+            "place_name": null
+          }
+        ],
+        "appnoti": []
+      }
+    },
+    {
+      "id": "evt-6a8bd890",
+      "timestamp": "2025-11-28T19:30:00",
+      "title": "유튜브 시청",
+      "content": "저녁 시간에 구독한 유튜브 채널의 새 동영상을 시청했습니다.",
+      "feeling": null,
+      "dailydata": {
+        "gallery": [],
+        "location": [],
+        "appnoti": [
+          {
+            "appname": "YouTube",
+            "text": "구독한 채널에 새 동영상이 업로드되었습니다",
+            "timestamp": "2025-11-28T19:30:00"
+          }
+        ]
+      }
+    }
+  ],
+  "selfsurvey": {
+    "mood": "",
+    "draft": ""
+  }
+}

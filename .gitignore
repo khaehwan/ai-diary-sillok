@@ -1,0 +1,104 @@
+# ===================
+# OS Generated Files
+# ===================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===================
+# IDE / Editor
+# ===================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*~
+
+# ===================
+# Environment Files
+# ===================
+.env
+.env.local
+.env.*.local
+
+# ===================
+# Flutter / Dart
+# ===================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+**/doc/api/
+*.class
+*.log
+*.pyc
+
+# Flutter generated files
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/.gradle/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/local.properties
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# ===================
+# Python / Backend
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.eggs/
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Backend generated files
+backend/storage/images/*
+backend/storage/music/*
+backend/log/*
+!backend/storage/images/.gitkeep
+!backend/storage/music/.gitkeep
+!backend/log/.gitkeep
+
+# ===================
+# Build / Dependencies
+# ===================
+node_modules/
+*.lock
+!pubspec.lock
+
+# ===================
+# Misc
+# ===================
+*.bak
+*.tmp
+*.temp
+.history/
+.buildlog/
+migrate_working_dir/
