@@ -1,4 +1,4 @@
-# Diary For Me
+# 날 위한 실록
 
 AI 기반 자동 일기 생성 앱
 
@@ -6,25 +6,44 @@ AI 기반 자동 일기 생성 앱
 
 ### 소개
 
-하루 동안 수집한 개인 데이터(알림, 위치, 사진)를 AI가 분석하여 자동으로 일기를 생성해주는 Flutter 모바일 앱입니다.
+하루 동안 수집한 개인 데이터(알림, 위치, 사진)를 AI가 분석하여 자동으로 일기를 생성해줍니다.
 
 사용자의 하루를 타임라인으로 정리하고, 감성적인 일기 본문과 함께 이미지, 배경음악까지 자동 생성합니다.
+
+### 유스케이스 정
+
+#### 1. 타임라인 생성
+사용자로부터 정보를 수집하여 AI 에이전트가 타임라인을 생성
+- 갤러리 정보 수집
+- 위치 정보 수집
+- 앱 알림(노티) 정보 수집
+
+추가적으로 오늘의 기분과 일기의 초안을 작성하여 더욱 디테일한 일기 작성 가능
+
+#### 2. 타임라인 검토
+사용자가 타임라인을 검토하고 원하는 방향으로 편집
+- 타임라인 추가: 원하는 이벤트나 정보를 추가
+- 타임라인 삭제: 원하는 이벤트나 정보를 삭제
+- 타임라인 수정: 원하는 이벤트나 정보를 수정
+
+#### 3. 일기 콘텐츠 생성
+AI 에이전트가 타임라인을 보고 일기(글)와 일기에 맞는 사진과 음악을 생성
+
+#### 4. 일기 콘텐츠 조회 및 수정
+사용자는 생성된 일기를 조회하고 원하는 부분을 수정 가능
+
+#### 5. SNS 공유하기
+사용자는 생성된 일기를 이미지 형태로 SNS에 공유 가능
 
 ### 기술 스택
 
 #### Frontend (Flutter App)
-
 | 분류 | 기술 |
 |------|------|
 | Framework | Flutter 3.10.1+, Dart |
 | Local DB | Isar (NoSQL) |
-| 데이터 수집 | flutter_notification_listener_plus, geolocator, photo_manager |
-| 백그라운드 | flutter_background_service, flutter_local_notifications |
-| 지도 | flutter_naver_map |
-| 네트워크 | Dio |
 
 #### Backend (FastAPI)
-
 | 분류 | 기술 |
 |------|------|
 | Framework | FastAPI (Python) |
@@ -53,7 +72,7 @@ AI 기반 자동 일기 생성 앱
    └── 완성된 일기 → Isar DB 저장
 ```
 
-## Frontend(/diary_for_me) 실행 방법
+## Frontend 실행 방법
 
 ### 1. Flutter 설치
 
@@ -90,7 +109,6 @@ NAVER_CLIENT_ID=your_naver_client_id
 ```
 
 **네이버 클라우드 API 키 발급:**
-
 1. [네이버 클라우드 플랫폼](https://console.ncloud.com) 접속
 2. Services → AI·NAVER API → Application 등록
 3. Maps (Mobile Dynamic Map) 선택
@@ -179,7 +197,6 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 ### 5. API 문서 확인
 
 서버 실행 후 브라우저에서:
-
 - Swagger UI: `http://localhost:8000/docs`
 - ReDoc: `http://localhost:8000/redoc`
 
@@ -225,6 +242,14 @@ FrontendForMe/
 │
 └── README.md
 ```
+
+## 팀원 정보
+| 역할   | 이름   | 전공 | 담당 |
+|--------|--------|------|------|
+| 팀장   | 김해환 | 동국대학교 컴퓨터공학과 |  |
+| 팀원   | 라치현 | 동국대학교 컴퓨터공학과 |  |
+| 팀원   | 장영우 | 동국대학교 컴퓨터공학전공 |  |
+| 팀원   | 오정인 | 동국대학교 컴퓨터공학전공 |  |
 
 ## 라이선스
 
